@@ -1,16 +1,16 @@
 ---
-title: "Why use a Cluster?"
+title: "Why use cloud computing?"
 teaching: 15
 exercises: 5
 questions:
-- "What is High Performance Computing (HPC)?"
-- "Why would I be interested in High Performance Computing (HPC)?"
+- "What is cloud computing?"
+- "Why would I be interested in cloud computing?"
 - "What can I expect to learn from this course?"
 objectives:
-- "Be able to describe what an HPC system is"
-- "Identify how an HPC system could benefit you."
+- "Be able to describe what an cloud computing system is"
+- "Identify how cloud computing could benefit you."
 keypoints:
-- "High Performance Computing (HPC) typically involves connecting to very large
+- "Cloud computing typically involves connecting to very large
   computing systems elsewhere in the world."
 - "These other systems can be used to do work that would either be impossible
   or much slower on smaller systems."
