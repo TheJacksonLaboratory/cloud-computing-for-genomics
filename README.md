@@ -12,14 +12,15 @@ There are a number of reasons why accessing a remote machine is invaluable to an
 In recent years, the advancement in computational power has become a commodity and companies are basing their business models around employing the strategy of acquirung one or more linked computational resources for as long as you required, at relatively low cost. That also happens to be the basic principle behind the cloud. You define your computational requirements based on tasks at hane and acquire resources accordingly for the duration of your task.
 
 ## When Cloud Computing
-
-Your computer does not have enough resources to run the desired analysis (memory, processors, disk space, network bandwidth).
-Your computer is taking hours or days to get through an analysis.
-You cannot install software on your computer (application does not have support for your operating system, conflicts with other existing applications, etc.)
-You cannot afford the infrastructure (hardware, bandwidth, power supply, administrator) required to acquire and maintain sufficiently large computers for your analysis.
-You need to continue working on your analyses while you travel.
-The cloud is a part of our everyday life (e.g. using Amazon, Google, Netflix, or an ATM involves remote computing). The topic is fascinating, but this lesson says ‘5 minutes or less’ so let’s get connected.
-The purpose of cloud computing is to reduce costs and help users focus on their business needs instead of being blocked by IT challenges.
+There are mahny reasons why researchers and computationally demanding task are migrating towards incresed utilization of cloud computing.
+1. Your computer/cluster does not have enough resources to run the desired analysis (memory, processors, disk space, network bandwidth).
+2. Your computer is taking hours or days to get through an analysis.
+3. The scheduler keeps putting your jobs into queue becuase of number of jobs schedules and the resource allocation your particular job demands.
+4. You have collaborators outside of your company/institute. It just easier to collaborate through cloud.
+5. You expect your data to keep growing and want the data to be stored in databases or if you intend to have your final product facing the public internet.
+6. You cannot install software on your computer (application does not have support for your operating system, conflicts with other existing applications, etc.)
+7. You cannot afford the infrastructure (hardware, bandwidth, power supply, administrator) required to acquire and maintain sufficiently large computers for your analysis.
+8. Reduce costs and help users focus on their business needs instead of being blocked by IT challenges.
 
 
 
