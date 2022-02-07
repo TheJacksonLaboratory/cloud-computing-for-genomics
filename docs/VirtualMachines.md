@@ -11,17 +11,17 @@ Creating virtual machines (VMs) is one of the primary tasks for performing compu
 
 2.	This will direct you to the main dashboard. Make sure you have navigated to the correct project. All the projects that you are currently part of will be listed at the top left side of the GCP pane, marked by red oval in the picture below.
 
- ![image](https://user-images.githubusercontent.com/40645366/152831069-133ec701-321c-4b9a-ac64-a84084482171.png)
+ ![GCP_Dashboard](https://github.com/TheJacksonLaboratory/cloud-computing-for-genomics/blob/gh-pages/fig/GCP_Dashboard.png)
 
 3.	Once you confirm that you are in the right project. Find the “Navigation Menu”, denoted by three bars at the top left corner. As indicated by the green circle in the image above.
 
 4.	Scroll to the “COMPUTE” section in the menu. You can scroll to the “VM instance” located within “Compute Engine”. Both the tabs are highlighted with gray in the picture below:
 
- ![image](https://user-images.githubusercontent.com/40645366/152836796-62498b50-7d61-4ed3-ac3a-6703f5944c13.png)
+ ![MarketPlace](https://github.com/TheJacksonLaboratory/cloud-computing-for-genomics/blob/gh-pages/fig/GCP_MarketPlace.png)
 
 5.	Once at the VM instance dashboard, we can create a new VM by navigating to “CREATE INSTANCE”. As indicated by the yellow rectangle in the image below.
 
- ![image](https://user-images.githubusercontent.com/40645366/152836843-75e9baeb-7568-491e-86bd-69ee0c1bba79.png)
+ ![VM_Initiate](https://github.com/TheJacksonLaboratory/cloud-computing-for-genomics/blob/gh-pages/fig/GCP_VMInitiate.png)
 
 6.	This will open a new page, where we need to provide information relative to the type of instance we want to create. Please, make sure that fill the form completely. The region and zone should be selected according to the network and subnetwork provided in your project. Almost all, unless requested otherwise, of the JAX project network resides in “us-east1” region. Equally important is that we opt for the right VM. Choosing the correct VM is primarily dependent on the kind of workload we intend to carryout. Details on the kind and specification on the VMs can be obtained at https://cloud.google.com/compute/docs/machine-types. In general, the different types of VM’s will be listed when filling the form but it is good to understand the subtle variation beforehand. 
 
