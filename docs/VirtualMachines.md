@@ -8,11 +8,13 @@ VMs are created with dedicated amounts of CPU, memory, and storage that are "bor
 
 Creating virtual machines (VMs) is one of the primary tasks for performing computational task and analysis in the cloud. While it is very simple to create a VM, it is important to understand the different kinds of VM. The information around google VM’s is listed at https://cloud.google.com/compute. All the VM’s are billed by the hour and the pricing can be checked at https://cloud.google.com/compute/all-pricing. In general, spot instances are always going to be ~70% cheaper than the regular instances.
 1.	The first step involves by navigating to https://console.cloud.google.com/ and signing in with your JAX credentials. Remember you should already have access to JAX GCP environment. If not you have to open up a separate ticket for gaining access to JAX GCP environment.
+
 2.	This will direct you to the main dashboard. Make sure you have navigated to the correct project. All the projects that you are currently part of will be listed at the top left side of the GCP pane, marked by red oval in the picture below.
  ![image](https://user-images.githubusercontent.com/40645366/152831069-133ec701-321c-4b9a-ac64-a84084482171.png)
 
- 3.	Once you confirm that you are in the right project. Find the “Navigation Menu”, denoted by three bars at the top left corner. As indicated by the green circle in the image above.
-4.	Scroll to the “COMPUTE” section in the menu. You can scroll to the “VM instance” located within “Compute Engine”. Both the tabs are highlighted with gray in the picture below
+3.	Once you confirm that you are in the right project. Find the “Navigation Menu”, denoted by three bars at the top left corner. As indicated by the green circle in the image above.
+
+4.	Scroll to the “COMPUTE” section in the menu. You can scroll to the “VM instance” located within “Compute Engine”. Both the tabs are highlighted with gray in the picture below:
  ![image](https://user-images.githubusercontent.com/40645366/152836796-62498b50-7d61-4ed3-ac3a-6703f5944c13.png)
 
 5.	Once at the VM instance dashboard, we can create a new VM by navigating to “CREATE INSTANCE”. As indicated by the yellow rectangle in the image below.
