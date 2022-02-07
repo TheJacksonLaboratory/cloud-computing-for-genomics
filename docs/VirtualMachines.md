@@ -33,4 +33,6 @@ Creating virtual machines (VMs) is one of the primary tasks for performing compu
 
 8.	Google SDK command to create the VM:
 
- ![image](https://user-images.githubusercontent.com/40645366/152385090-9d117350-3fa8-46ff-99f6-6d7e249b289b.png)
+ ![image](https://user-images.githubusercontent.com/40645366/152837507-b604b5a7-779c-4cf1-ab54-579e66a8eb6b.png)
+
+
