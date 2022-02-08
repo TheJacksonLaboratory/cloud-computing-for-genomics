@@ -3,7 +3,7 @@ This repo attempts at providing brief but concise understanding of cloud computi
 
 ## Topics
 1. [Introduction](https://github.com/TheJacksonLaboratory/cloud-computing-for-genomics/blob/gh-pages/docs/Introduction.md)
-2. [Virtual Machines] (https://github.com/TheJacksonLaboratory/cloud-computing-for-genomics/blob/gh-pages/docs/VirtualMachines.md)
+2. [Virtual Machines](https://github.com/TheJacksonLaboratory/cloud-computing-for-genomics/blob/gh-pages/docs/VirtualMachines.md)
 3. Storage
 4. Containers
 
