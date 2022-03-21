@@ -32,6 +32,7 @@ Creating virtual machines (VMs) is one of the primary tasks for performing compu
  ![image](https://github.com/TheJacksonLaboratory/cloud-computing-for-genomics/blob/gh-pages/fig/GCP_VM_BootDisk.png)
 
 8.	Google SDK command to create the VM:
+    The command is specific and creates a particular kind of VM. Knowing which VM best suits your job requirements is paramount. It is also important to know which boot disk you wish to associate with your VMA list of all the 
 
  ![SDK](https://github.com/TheJacksonLaboratory/cloud-computing-for-genomics/blob/gh-pages/fig/GCP_SDK.png)
 
