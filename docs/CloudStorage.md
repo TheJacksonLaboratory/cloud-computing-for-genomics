@@ -10,13 +10,6 @@ Cloud storage systems generally rely on hundreds of data servers. Because comput
 
 Google Cloud Storage (GCS) consists of four main components which are projects, buckets, objects, and access controls. The GCS lifecycle can be viewed as a project consisting of buckets, the bucket stores objects and the permissions to access and control the buckets and objects is configured using the access control management component. GCS stores unstructured data storing sequences of bytes on a location identified by a unique id. The sequence of bytes, termed as **objects**, can hold any information ranging from images to text files. GCS has no insights of data on its structure, it only receives objects and later returns them as requested by the user. 
 
-## Object Storage
-In object storage, files are simply referenced as objects and organized into buckets—logical namespaces that are able to hold one or more objects. While a bucket can have multiple objects, an object can only belong to just one bucket. GCS comes with built-in capabilities to manage and automate bucket lifecycle rules. In GCS, the availability of the data can be configured by choosing a storage class for the bucket and its objects. The three classes for Storage are: 
-  1.  Standard 
-  2.  Nearline 
-  3.  Coldline 
-In addition, the data location can be specified, which also impacts the availability, by choosing between region, dual-region and multi-region. GCS comes with built-in capabilities to manage and automate bucket lifecycle rules. 
-
 ## How storage works
 Large data centers are maintained in multiple locations around the world. When customers purchase cloud storage from a provider, they turn over most aspects of the data storage to the vendor, including security, capacity, storage servers and computing resources, data availability and delivery over a network. Customer applications can access the stored cloud data through traditional storage protocols or application programming indicators (APIs), or they can also be moved to the cloud.
 
@@ -27,8 +20,11 @@ Cloud KMS integrates with some of Google's other cloud services, such as Cloud I
 
 The other big concern, reliability, is just as important as security. An unstable cloud storage system is a liability. No one wants to save data to a failure-prone system, nor do they want to trust a company that isn't financially stable. While most cloud storage systems try to address this concern through redundancy techniques, there's still the possibility that an entire system could crash and leave clients with no way to access their saved data. Google claims to deliver 99.9% or better uptime through its highly available, geo-redundant data-replication system.
 
+## Object Storage
+In object storage, files are simply referenced as objects and organized into buckets—logical namespaces that are able to hold one or more objects. While a bucket can have multiple objects, an object can only belong to just one bucket. GCS comes with built-in capabilities to manage and automate bucket lifecycle rules.
+
 **Storage Class**
-The classes are categorised by the data access frequency:
+In GCS, the availability of the data can be configured by choosing a storage class for the bucket and its objects data access frequency:
 Standard: High availability, performance, and suitable for frequently accessed and short live data
 Nearline: Highly durable low in cost and suitable for data which are not frequently accessed
 Coldline: Suitable for backup 
@@ -41,7 +37,7 @@ Archive: Designed for long term preservation of data
 | Coldline       | less than once a quarter | 90 days                   |
 | Archive        | less than once a year    | 365 days                  |
 
-The storage class not only sets the differentiator on object access frequency, but it also changes the minimum storage duration. Minimum storage capacity is also used to decide the charges for the storage.
+The storage class not only sets the differentiator on object access frequency, but it also changes the minimum storage duration. Minimum storage capacity is also used to decide the charges for the storage. In addition, the data location can be specified, which also impacts the availability, by choosing between region, dual-region and multi-region. GCS comes with built-in capabilities to manage and automate bucket lifecycle rules.
 
 **Pricing**
 Google Cloud Storage is available for a low monthly fee based on the amount of data you store. Storage and bandwidth usage are calculated in gigabytes (GB), where: 1 GB = 230 bytes. For more information on pricing and special offers, visit http://code.google.com/apis/storage/docs/pricingandterms.html. 
